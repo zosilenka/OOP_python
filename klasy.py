@@ -1,6 +1,8 @@
 # python3
 
 # example of python inheritace
+# version 1.0.1
+
 class Animal:
     def __init__(self, imie):
         self.imie = imie
