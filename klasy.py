@@ -27,10 +27,7 @@ class Dog(Animal):
     def dajglos(self):
         print("hauhauhau")
 
-stella = Horse("stella")
-blake = Dog("blake")
-
-ferma = [Dog("Azor"), Dog("Axel"), Dog("Exel"), blake, Dog("ugryź"), stella, Horse("Gałka"), Horse("Piotruś")]
+ferma = [Dog("Azor"), Dog("Axel"), Dog("Exel"), Dog("blake"), Dog("ugryź"), Horse("stella"), Horse("Gałka"), Horse("Piotruś")]
 for zwierz in ferma:
     zwierz.dajimie()
     zwierz.dajglos()
