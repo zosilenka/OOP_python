@@ -29,10 +29,15 @@ class SupKosLot(Lot):
     def lataj(self):
         print("supfru")
 
+class RocketSupKosLot(Lot):
+    def lataj(self):
+        print("buuuuuu")
 
 # run
 
 kos = Kos(SupKosLot())
 kos.lec()
 kos.zmienlot(KosLot())
+kos.lec()
+kos.zmienlot(RocketSupKosLot())
 kos.lec()
